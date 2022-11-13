@@ -1,7 +1,7 @@
 # Личный проект «TaskForce»
 
 * Студент: [Дмитрий Логинов](https://up.htmlacademy.ru/nodejs-2/2/user/116316).
-* Наставник: `Неизвестно`.
+* Наставник: [Олег Зубов](https://htmlacademy.ru/profile/id42701).
 
 ---
 
