@@ -1,0 +1,13 @@
+# Create a new review
+POST http://localhost:3333/api/review/create HTTP/1.1
+Content-Type: application/json
+
+{
+  "taskId": "129b1deb4d-3b7d-4bad",
+  "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "rate": 3
+}
+
+###
+# Destroy comment
+DELETE http://localhost:3333/api/review/00712a7e-684b-4196-9bb2-f016201bfd01
