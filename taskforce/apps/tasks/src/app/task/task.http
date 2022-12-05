@@ -1,0 +1,28 @@
+# Create a new task
+POST http://localhost:3333/api/task/create HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "category": "Category 1",
+  "price": 1000,
+  "image": "/src/image.jpg",
+  "address": "наб. Pеки Карповки, 5 корпус П, Санкт-Петербург, 197022",
+  "tags": ["Lorem", "simply", "typesetting"]
+}
+
+###
+PUT http://localhost:3333/api/task/616fce5b-96eb-4193-b4dd-1f706af552d3
+Content-Type: application/json
+
+{
+  "title": "Lorem Ipsum",
+  "category": "Category 5"
+}
+
+###
+DELETE http://localhost:3333/api/task/fe76605c-5bfb-4ce4-abaf-a18d23522115
+
+###
+GET http://localhost:3333/api/task/616fce5b-96eb-4193-b4dd-1f706af552d3
