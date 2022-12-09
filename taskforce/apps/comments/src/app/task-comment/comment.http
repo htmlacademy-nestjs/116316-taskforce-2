@@ -4,13 +4,24 @@ Content-Type: application/json
 
 {
   "taskId": "129b1deb4d-3b7d-4bad",
-  "text": "123sdsd"
+  "text": "d"
 }
 
 ###
+# Create a new comment
+POST http://localhost:3333/api/comment/create HTTP/1.1
+Content-Type: application/json
+
+{
+  "taskId": "sdfsfbad",
+  "text": "Lorem ispum"
+}
+
+
+###
 # Destroy comment
-DELETE http://localhost:3333/api/comment/84b0092b-ddbd-4f7a-b7b1-a6fe11fcb373
+DELETE http://localhost:3333/api/comment/6393b881ebf5fccb50fe5b76
 
 ###
 #Get comment by task ID
-GET http://localhost:3333/api/comment/9b1deb4d-3b7d-4bad
+GET http://localhost:3333/api/comment/6393ba61718c14e6585d7c84
