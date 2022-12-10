@@ -5,9 +5,9 @@ Content-Type: application/json
 {
   "taskId": "129b1deb4d-3b7d-4bad",
   "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  "rate": 3
+  "rank": 3
 }
 
 ###
 # Destroy comment
-DELETE http://localhost:3333/api/review/00712a7e-684b-4196-9bb2-f016201bfd01
+DELETE http://localhost:3333/api/review/6393c0bf296a724b8ca8400f
